@@ -10,6 +10,7 @@ h1{
 h2{
     margin: 0;
     font-weight: 400;
+    display: inline;
 }
 .box{
     background: #fff;
@@ -28,11 +29,12 @@ h2{
     display: grid;
     justify-items: center;
     align-items: center;
-    font-size: 1.5 rem;
+    font-size: 2 rem;
 }
 .first-name{
-    font-weight: 300;
+    font-weight: 400;
     margin: 0;
+    font-size: 2rem;
 }
 .last-name{
     font-weight: 200;
@@ -43,7 +45,13 @@ h2{
     display: grid;
     justify-items: end;
 }
+.header-right p{
+    display: inline;
+
+}
 .grey{
+   
+    text-align: center;
     background: rgb(133, 133, 133);
     color: #ffff;
 }
